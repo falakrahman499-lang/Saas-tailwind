@@ -8,7 +8,8 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-zinc-100">
+  <div class="container mx-auto">
   <nav class="flex justify-between items-center p-6">
     <div class="text-2xl font-bold text-pink-900">
       FalQom
@@ -18,11 +19,12 @@
       <a class="text-pink-900 hover:text-pink-700" href="#">Home</a>
       <a class="text-pink-900 hover:text-pink-700" href="#">Features</a>
       <a class="text-pink-900 hover:text-pink-700" href="#">Pricing</a>
+      <a class="text-pink-900 hover:text-pink-700" href="#">Get Started</a>
     </div>
 
-    <button class="bg-pink-400 text-black px-5 py-3 rounded-lg font-bold">Get Started</button>
+    <button class="bg-pink-400 text-black px-5 py-3 rounded-lg font-bold hover:bg-red-300 transition">Get Started</button>
   </nav>
-  <section class="flex flex-col md:flex-row items-center justify-between p-10">
+  <section class="flex flex-col md:flex-row items-center justify-between py-24">
     <div class="max-w-xl">
       <h1 class=" text-4xl md:text-6xl font-bold text-pink-900 ">WE BUILD.WE MARKET.</h1>
       <p class="text-black mt-5 text-lg font-bold">
@@ -67,12 +69,47 @@
         <div class="text-5xl font-bold">5000
           <span class="text-lg font-normal text-gray-600">/month</span>
         </div>
-<button class="bg-pink-500 text-white w-full py-3 rounded-lg mt-6 cursor-pointer">Choose plan</button>
+<button class="bg-pink-500 text-white w-full py-3 rounded-lg mt-6 cursor-pointer ">Choose plan</button>
       </div>
     </div>
   </section>
+<!-- card -->
+ <section>
+  
+  <!-- <div> -->
+      <h2 class="text-4xl font-bold text-center ">My Card</h2>
+ <div class=" flex justify-center mt-10">
+      <div class="border rounded-2xl p-8 max-w-sm shadow-lg shadow-pink-300 hover:scale-105 transition">
+<p class=" mt-3 font-bold text-black">AI Website Builder</p>
+<p class="text-black mt-3 font-bold"> Website BUilds in minute</p>
+<button class="bg-pink-500 text-white w-full py-3 rounded-lg mt-6 cursor-pointer ">Learn More</button>
+
+</section>
+<!-- </div> -->
+
+ <!-- mere footer -->
 
 
+<footer class="bg-pink-500 text-white mt-20 rounded-2xl">
+  <div class="container mx-auto px-6 py-10">
+    <div class=" flex flex-col md:flex-row justify-between items-center">
+      <div>
+      <h2 class="text-4xl font-bold text-shadow-white">FalQom</h2>
+      <p class=" text-shadow-white mt-24">Building Modern Website with Falqom
+      </p>
+    </div>
 
+    <div class="flex gap-6 mt-6 md:mt-0">
+      <a href="#" class="hover:text-purple-400 transition">Home</a>
+      <a href="#" class="hover:text-purple-400 transition">Features</a>
+      <a href="#" class="hover:text-purple-400 transition">Pricing</a>
+
+    </div>
+  </div>
+
+  <hr class="border-gray-700 my-8">
+  <p class="text-center text-shadow-white"> 2026 FalQom.All rights reserved.</p>
+  </div>
+</footer>
 </body>
 </html>
